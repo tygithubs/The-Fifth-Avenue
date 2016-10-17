@@ -1,0 +1,716 @@
+/* mengceng */
+.mengceng {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.mc-ad {
+    position: fixed;
+    z-index: 10001;
+    left: 365px;
+    top: 50px;
+    height: 665px;
+    width: 535px;
+}
+.mc-ad .close {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* banner */
+.banner {
+	background: #000;
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+}
+.banner .banner-wrapper {
+    width: 1000px;
+	height: 520px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner .banner-wrapper .img-wrapper {
+	position: absolute;
+	top: 0;
+	left: -220px;
+	width: 11520px;
+	height: 100%;
+}
+.banner .banner-wrapper .img-wrapper img {
+	float: left;
+	width: 1440px;
+	height: 100%;
+}
+.banner .banner-wrapper .banner-arrow {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner .banner-wrapper .banner-arrow .arrow-left {
+    cursor: pointer;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+}
+.banner .banner-wrapper .banner-arrow .arrow-right {
+    cursor: pointer;
+	position: absolute;
+	top: 200px;
+	right: 0px;
+}
+.banner .banner-wrapper .circles {
+    background: #918f8f;
+    width: 178px;
+    height: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -100px;
+    padding: 5px 0 0 22px;
+}
+.banner .banner-wrapper .circles .circle-item {
+	width: 11px;
+    height: 11px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url(../img/home/slide_dot.png) 0 -11px no-repeat;
+}
+.banner .banner-wrapper .circles .circle-item.active {
+	background: url(../img/home/slide_dot.png) 0 0 no-repeat;
+}
+
+/* main */
+.main {
+    width: 100%;
+    min-height: 685px;
+    margin-bottom: 50px;
+}
+.main .brandship-title {
+    margin: 40px 0 28px;
+}
+.main .brandship-list li {
+    float: left;
+    position: relative;
+    margin-right: 10px;
+}
+.main .brandship-list .li0 {
+    margin-right: 0;
+}
+.main .brandship-list .brandship-box {
+    position: absolute;
+    bottom: 1px;
+    left: 30px;
+    width: 174px;
+    height: 154px;
+    overflow: hidden;
+    z-index: 1;
+}
+.main .brandship-list .brandship-box .brandship-hide {
+    background: #fff;
+    width: 106px;
+    height: 154px;
+    position: absolute;
+    top: 100px;
+    padding: 0 34px 0 34px;
+}
+.main .brandship-list .brandship-box .brandship-hide img {
+    width: 60px;
+    margin: 10px 23px 3px;
+}
+.main .brandship-list .brandship-box .brandship-hide .p1 {
+    height: 30px;
+    text-align: center;
+    padding-left: 43px;
+}
+.main .brandship-list .brandship-box .brandship-hide .p1 span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #000;
+}
+.main .brandship-list .brandship-box .brandship-hide .p2 {
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+}
+.main .hotstore-title {
+    height: 60px;
+}
+.main .hotstore-title img {
+    float: left;
+}
+.main .hotstore-title .hotstoreT-btn {
+    float: right;
+    padding: 23px 15px 0 0;
+}
+.main .hotstore-title .hotstoreT-btn span {
+    display: inline-block;
+    width: 8px;
+    height: 15px;
+}
+.main .hotstore-title .hotstoreT-btn .btn-pre {
+    background: url(../img/common/share02.png) no-repeat -160px -384px;
+    cursor: pointer;
+}
+.main .hotstore-title .hotstoreT-btn .btn-next {
+    background: url(../img/common/share02.png) no-repeat -180px -384px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.main .hotstore-flag {
+    height: 180px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.main .hotstore-flag .hotstore-flagBox {
+    width: 3630px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .hotstore-flag .hotstore-flagBox li {
+    float: left;
+    width: 1210px;
+}
+.main .hotstore-flag .hotstore-flagBox .hotflagson {
+    position: relative;
+    float: left;
+    width: 107px;
+    height: 55px;
+    padding: 14px 29px;
+    border: 1px solid #dfdfdf;
+    margin: 0 6px 7px 0;
+}
+.main .hotstore-flag .hotstore-flagBox .hotflagson img {
+    width: 107px;
+    height: 54px;
+}
+.main .hotstore-flag .hotstore-flagBox .hotflagson .hotson-middle {
+    position: absolute;
+    left: 29px;
+    top: 14px;
+    opacity: 0;
+    width: 107px;
+    height: 42px;
+    padding-top: 12px;
+    background: #fff;
+}
+.main .hotstore-flag .hotstore-flagBox .hotflagson .hotson-middle a {
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+}
+.main .hotstore-flag .hotstore-flagBox .hotflagson .hotson-middle a:hover {
+    color: #B88247;
+}
+.main .hotstore-flag .hotstore-flagBox .hotflagson .hotson-middle span {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    margin-left: 43px;
+}
+.main .hotstore-flag .hotstore-flagBox .hotflagson .topline {
+    width: 0;
+    height: 1px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    background: #000;
+}
+.main .hotstore-flag .hotstore-flagBox .hotflagson .rightline {
+    width: 1px;
+    height: 0;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    background: #000;
+}
+.main .hotstore-flag .hotstore-flagBox .hotflagson .bottomline {
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    background: #000;
+}
+.main .hotstore-flag .hotstore-flagBox .hotflagson .leftline {
+    width: 1px;
+    height: 0;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: #000;
+}
+.main .hotSale-box {
+    width: 100%;
+    height: 562px;
+    position: relative;
+    overflow: hidden;
+}
+.main .hotSale-box .hotSale-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .hotSale-box .hotSale-link li {
+    float: left;
+    width: 398px;
+    height: 30px;
+    background: #999;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+}
+.main .hotSale-box .hotSale-link li.bgc {
+    background: #000;
+}
+.main .hotSale-box .hotSale-list {
+    width: 3630px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+.main .hotSale-box .hotSale-list li {
+    float: left;
+    width: 1210px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-left {
+    float: left;
+    width: 368px;
+    height: 518px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right {
+    float: left;
+    margin-left: 9px;
+    width: 833px;
+    height: 515px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-top {
+    float: left;
+    width: 833px;
+    height: 250px;
+    margin-bottom: 8px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-bottom {
+    float: left;
+    width: 833px;
+    height: 257px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-top1 {
+    width: 222px;
+    height: 248px;
+    text-align: center;
+    border: 1px solid #ccc;
+    float: left;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-topTxt {
+    left: 0;
+    font-size: 13px;
+    color: #666;
+    position: relative;
+    line-height: 24px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .p1 {
+    color: #000;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-top1 .hotSaleL-topPic {
+    position: relative;
+    left: 0;
+    margin-left: 35px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-topPic img {
+    width: 150px;
+    height: 150px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-top2 {
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 367px;
+    height: 248px;
+    float: left;
+    margin-right: 7px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-top2 .hotSaleL-topTxt {
+    float: left;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 70px;
+    color: #666;
+    position: relative;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-top2 .hotSaleL-topPic {
+    position: relative;
+    float: left;
+    margin-top: 28px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-top2 .hotSaleL-topPic img {
+    width: 180px;
+    height: 180px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-bottom1 {
+    text-align: center;
+    margin-right: 7px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 271px;
+    height: 255px;
+}
+.main .hotSale-box .hotSale-list .hotSaleL-right .hotSaleL-bottom1 .hotSaleL-topPic {
+    position: relative;
+    left: 0;
+    margin-left: 60px;
+}
+.main .hotSale-box .hotSale-list .drawin {
+    width: 398px;
+    height: 520px;
+    position: relative;
+    margin-right: 9px;
+    float: left;
+}
+.main .hotSale-box .hotSale-list .drawin .drawin-son1 .drawin-hide {
+    width: 398px;
+    height: 520px;
+    background: url(../img/home/darwin_mask_bg.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .hotSale-box .hotSale-list .drawin .drawin-hide a {
+    display: block;
+    width: 260px;
+    height: 120px;
+    padding-top: 20px;
+    margin: 190px auto;
+    font-size: 18px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.main .hotSale-box .hotSale-list .drawin .drawin-hide p {
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+}
+.main .hotSale-box .hotSale-list .drawin .drawin-hide b {
+    display: block;
+    width: 18px;
+    height: 3px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+.main .hotSale-box .hotSale-list .drawin .drawin-hide span {
+    font-size: 14px;
+}
+.main .hotSale-box .hotSale-list .drawin .drawin-son {
+    position: relative;
+}
+.main .hotSale-box .hotSale-list .drawin .drawin-son .drawin-hide {
+    width: 398px;
+    height: 255px;
+    background: url(../img/home/darwin_mask_bg.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .hotSale-box .hotSale-list .drawin .drawin-son .drawin-hide a {
+    margin: 40px auto;
+}
+.main .hotSale-box .hotSale-list .drawin .enter .drawin-hide {
+    display: none;
+}
+.main .shoppingMall-menu {
+    width: 100%;
+    height: 50px;
+}
+.main .shoppingMall-menu li {
+    float: left;
+    width: 234px;
+    height: 50px;
+    position: relative;
+    margin-right: 8px;
+    overflow: hidden;
+}
+.main .shoppingMall-menu .menuBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 234px;
+    height: 100px;
+}
+.main .shoppingMall-menu .menuBox .topbox {
+    width: 234px;
+    height: 50px;
+    line-height: 50px;
+    background: #999;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.main .shoppingMall-menu .menuBox .bottombox {
+    width: 224px;
+    height: 40px;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.main .shoppingMall-menu .menuBox .bottombox .bottombox-border {
+    border: 1px solid #fff;
+    width: 223px;
+    height: 40px;
+}
+.main .shoppingMall-goodsBox {
+    width: 100%;
+    height: 432px;
+    position: relative;
+}
+.main .shoppingMall-goodsBox .rightbtn {
+    width: 128px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main .shoppingMall-goodsBox .rightbtn .icon {
+    float: right;
+    background: url(../img/common/share02.png) no-repeat -470px -360px;
+    width: 18px;
+    height: 60px;
+    margin-left: 6px;
+}
+.main .shoppingMall-goodsBox .rightbtn .moretxt {
+    float: right;
+    font-size: 16px;
+}
+.main .shoppingMall-goodsBox .rightbtn a {
+    color: #000;
+}
+.main .shoppingMall-goodsBox .rightbtn a:hover {
+    color: #b28247;
+}
+.main .shoppingMall-goodsBox .goods1 {
+    float: left;
+    width: 220px;
+    height: 366px;
+    border: 1px solid #ccc;
+    padding: 4px 9px 0 9px;
+    margin-right: 8px;
+}
+.main .shoppingMall-goodsBox .goods1 .goodsLinks {
+    width: 220px;
+    height: 181px;
+    border-bottom: 1px dashed #d4d4d4;
+    padding-bottom: 16px
+}
+.main .shoppingMall-goodsBox .goods1 .goodsLinks li {
+    float: left;
+    line-height: 36px;
+    width: 110px;
+    height: 36px;
+    font-size: 14px;
+    text-align: left;
+}
+.main .shoppingMall-goodsBox .goods1 .goodsLinks li a {
+    color: #666;
+}
+.main .shoppingMall-goodsBox .goods1 .goodsLinks li a:hover {
+    color: #B88247;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider {
+    width: 100%;
+    height: 150px;
+    margin-top: 14px;
+    position: relative;
+    overflow: hidden;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider .box {
+    width: 660px;
+    height: 114px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider .box li {
+    width: 220px;
+    height: 114px;
+    float: left;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider .box li img {
+    float: left;
+    width: 90px;
+    height: 45px;
+    margin: 0 2px 12px 12px;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider .goods1slider-link {
+    width: 155px;
+    height: 21px;
+    padding: 12px 0 0 65px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider .goods1slider-link li {
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider .goods1slider-link span {
+    float: left;
+    width: 8px;
+    height: 14px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider .goods1slider-link .btn-pre {
+    background: url(../img/common/share02.png) no-repeat -239px -384px;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider .goods1slider-link .btn-next {
+    background: url(../img/common/share02.png) no-repeat -267px -384px;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider .goods1slider-link .circle-item {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #666;
+    margin-top: 2px;
+}
+.main .shoppingMall-goodsBox .goods1 .goods1-slider .goods1slider-link .circle-item.bgc {
+    background: #c77f40;
+}
+.main .shoppingMall-goodsBox .goods2 {
+    float: left;
+    width: 390px;
+    height: 370px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    position: relative;
+}
+.main .shoppingMall-goodsBox .goods2 .goods2-slider {
+    width: 250px;
+    height: 85px;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -125px;
+    background: url(../img/home/darwin_mask_bgfff.png)
+}
+.main .shoppingMall-goodsBox .goods2 .goods2-slider p {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    line-height: 24px;
+}
+.main .shoppingMall-goodsBox .goods2 .goods2-slider p b {
+    width: 20px;
+    height: 2px;
+    display: block;
+    margin: 5px auto;
+    background-color: #000;
+}
+.main .shoppingMall-goodsBox .goods2 .goods2-slider .p0 {
+    font-size: 17px;
+    line-height: 17px;
+}
+.main .shoppingMall-goodsBox .goods3 {
+    float: left;
+    width: 560px;
+    height: 372px;
+}
+.main .shoppingMall-goodsBox .goods3 .goods3Pic {
+    float: left;
+    width: 275px;
+    height: 180px;
+    margin-right: 6px;
+    border: 1px solid #ccc;
+}
+.main .promotion-top {
+    width: 100%;
+    min-height: 610px;
+}
+.main .promotion-top img {
+    float: left;
+    margin: 0 13px 12px 0;
+}
+.main .promotion-bottom {
+    width: 100%;
+    height: 138px;
+}
+.main .promotion-bottom .promotionB-left {
+    width: 610px;
+    height: 138px;
+    float: left;
+}
+.main .promotion-bottom .promotionB-left .promotionB-pic {
+    float: left;
+    width: 192px;
+    height: 63px;
+    border: 1px solid #ccc;
+    margin: 0 9px 8px 0;
+    position: relative;
+}
+.main .promotion-bottom .promotionB-left .promotionB-pic .topline {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 0;
+    height: 1px;
+    background: #000;
+}
+.main .promotion-bottom .promotionB-left .promotionB-pic .rightline {
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    width: 1px;
+    height: 0;
+    background: #000;
+}
+.main .promotion-bottom .promotionB-left .promotionB-pic .bottomline {
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    width: 0;
+    height: 1px;
+    background: #000;
+}
+.main .promotion-bottom .promotionB-left .promotionB-pic .leftline {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 1px;
+    height: 0;
+    background: #000;
+}
+.main .promotion-bottom .promotionB-right {
+    width: 600px;
+    height: 138px;
+    float: left;
+    overflow: hidden;
+}
+.main .promotion-bottom .promotionB-right .promotionB-picBig {
+    display: none;
+    width: 600px;
+    height: 138px;
+}
+.main .promotion-bottom .promotionB-right .promotionB-picBig.picShow {
+    display: block;
+}
+

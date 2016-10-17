@@ -1,0 +1,168 @@
+.cart {
+	width: 1190px;
+    margin: 20px auto;
+    padding-top: 10px;
+    .cart-step1 {
+    	background: url(../img/cart/cart_step.jpg) no-repeat;
+	    width: 700px;
+	    height: 47px;
+	    float: right;
+	    margin-bottom: 30px;
+    }
+    .cart-body {
+    	.cart-goods {
+    		border-collapse: collapse;
+    		th {
+    			height: 40px;
+			    line-height: 40px;
+			    font-size: 14px;
+			    font-weight: normal;
+			    text-align: center;
+			    background: #ebeaea;
+    		}
+    		.cart-tcheck {
+		    	text-align: left;
+				padding-left: 12px;
+				.cart-tfinput {
+					margin-right: 10px;
+				}
+		    }
+    		.tr-border {
+    			border-top: #b3b3b3 solid 1px;
+    			border-bottom: #b3b3b3 solid 1px;
+    			height: 100px;
+    			td {
+    				text-align: center;
+    				line-height: 24px;
+    				img {
+    					width: 95px;
+    					height: 95px;
+    				}
+    				a {
+    					color: #000;
+    				}
+    				a:hover {
+    					color: #B28247;
+    				}
+    				.cart-goods-num {
+    					margin: 0 auto;
+    					width: 118px;
+    					a {
+    						display: inline-block;
+						    font-size: 14px;
+						    width: 20px;
+						    height: 20px;
+						    line-height: 20px;
+						    vertical-align: middle;
+						    color: #fff;
+						    float: left;
+						    margin: 0;
+						    background-color: #c8a985;
+    					}
+    					input {
+    						display: inline-block;
+						    border: #9d9d9d solid 1px;
+						    width: 50px;
+						    height: 18px;
+						    line-height: 18px;
+						    vertical-align: middle;
+						    float: left;
+						    text-align: center;
+    					}
+    				}
+    			}
+    			.selected {
+    				text-align: left;
+    				padding-left: 12px;
+    			}
+    			.tr-price {
+    				font-weight: bold;
+    			}
+    			.tr-operate {
+    				text-align: left;
+    				a {
+    					display: block;
+    					color: #00f;
+    				}
+    				a:hover {
+    					color: #00f;
+    				}
+    				.cart-dz-btn {
+    					color: #cc0000;
+					    position: relative;
+					    padding-left: 23px;
+					    b {    	
+						    display: block;
+						    width: 20px;
+						    height: 20px;
+						    position: absolute;
+						    top: 0px;
+						    left: 0px;
+						    background: url(../img/cart/new_5luxbg.png) no-repeat;
+						    background-position: -361px -51px;
+					    }
+    				}
+    				.cart-dz-btn:hover {
+    					color: #cc0000;
+    				}
+    			}
+    		}
+    	}
+    	.btn-price-info {
+    		width: 100%;
+		    padding-top: 35px;
+            height: 35px;
+		    .check-info {
+		    	display: inline-block;
+			    float: left;
+			    padding-left: 12px;
+			    height: 35px;
+			    line-height: 35px;
+			    input {
+			    	vertical-align: middle;
+			    }
+			    a {
+			    	color: #666;
+			    }
+			    .cart-goods-empty,.cart-goods-delete {
+			    	border-left: 1px solid #666;
+				    padding: 0 10px 0 15px;
+				    margin-right: 10px;
+			    }
+		    }
+    	}
+        .btn-price-area {
+            display: inline-block;
+            float: right;
+            .textm {
+                line-height: 35px;
+                height: 35px;
+                float: right;
+                color: #666;
+                i {
+                    color: #d32424;
+                }
+                span {
+                    margin-right: 15px;
+                }
+                strong {
+                    font-size: 20px;
+                    color: #d73128;
+                }
+                .go-pay {
+                    float: right;
+                    display: inline-block;
+                    padding: 0px 40px;
+                    height: 35px;
+                    line-height: 35px;
+                    color: #fff;
+                    font-size: 14px;
+                    border: 0px;
+                    cursor: pointer;
+                    background: #d73128;
+                    margin: 0 0 0 15px;
+                }
+            }
+        }
+    }
+}

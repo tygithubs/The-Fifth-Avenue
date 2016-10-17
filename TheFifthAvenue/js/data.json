@@ -1,0 +1,18 @@
+{
+	"128G": {
+		"goods-id": "128G",
+		"goods-name": "【预售款】Ninin iPhone 7 Plus 黄金亮面版 （5.5寸屏 128G内存） NA5S7PGGY02B",
+		"goods-price": 26800.00,
+		"goods-style": "黄色系,128G",
+		"goods-stock": 10,
+		"goods-img": "img/cart/goods-small.jpg"
+	},
+	"32G": {
+		"goods-id": "32G",
+		"goods-name": "【预售款】Ninin iPhone 7 Plus 黄金亮面版 （5.5寸屏 32G内存） NA5S7PGGY01B",
+		"goods-price": 24800.00,
+		"goods-style": "黄色系,32G",
+		"goods-stock": 10,
+		"goods-img": "img/cart/32g.jpg"
+	}
+}

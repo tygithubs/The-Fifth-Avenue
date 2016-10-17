@@ -1,0 +1,163 @@
+/* top */
+.login-top {
+	width: 100%;
+	height: 90px;
+	padding-top: 10px;
+	.login-box {
+		width: 1000px;
+		height: 90px;
+	    margin: 0 auto;
+	    position: relative;
+	    line-height: 90px;
+	    .logo img {
+	    	float: left;
+	    }
+	    .logo span {
+	    	font-family: Helvetica;
+		    font-size: 18px;
+		    color: #949292;
+		    float: left;
+		    padding-left: 10px;
+	    }
+	    .phone {
+	    	position: absolute;
+		    right: 0;
+		    bottom: 0px;
+		    line-height: 27px;
+		    height: 27px;
+		    img {
+		    	float: left;
+		    }
+		    span {
+		    	float: left;
+		    	font-family: Helvetica;
+			    font-size: 15px;
+			    color: #000;
+		    }
+	    }
+	}
+}
+
+/* login-main */
+.login-main {
+	width: 100%;
+	height: 570px;
+	background: url(../img/login/bai-bg.jpg) no-repeat;
+	.login-content {
+		width: 1000px;
+		margin: 0 auto;
+		position: relative;
+		.main-left {
+			width: 705px;
+		    height: 680px;
+		    position: absolute;
+		    z-index: 5;
+		    top: 0;
+		    left: -140px;
+    		background: url(../img/login/baijin-icon.png) no-repeat;
+		}
+		.main-right {
+			width: 450px;
+		    background-color: #fff;
+		    float: right;
+		    margin: 47px 0 0 10px;
+		    -webkit-box-shadow: #afabab 0px 0px 8px;
+		    -moz-box-shadow: #afabab 0px 0px 8px;
+		    box-shadow: #afabab 0px 0px 8px;
+		    .login-box {
+		    	width: 300px;
+			    margin: 45px auto;
+			    text-align: left;
+			    ul {
+			    	width: 300px;
+			    	position: relative;
+			    	.log-title {
+			    		width: 100%;
+					    padding-bottom: 12px;
+					    text-align: left;
+					    color: #6d6d6d;
+					    font-size: 15px;
+					    border-bottom: #ccc solid 1px;
+			    	}
+			    	.log-con {
+			    		height: 64px;
+    					padding-left: 25px;
+    					input {
+    						width: 250px;
+						    height: 32px;
+						    line-height: 32px;
+						    border: 1px solid #ccc;
+    					}
+    					.username {
+    						background: url(../img/login/login_reg_input_user_bg.jpg) no-repeat;
+    						text-indent: 2.8em;
+    					}
+    					.password {
+    						background: url(../img/login/login_reg_input_pw_bg.jpg) no-repeat;
+    						text-indent: 2.8em;
+    					}
+			    	}
+			    	.jizhu {
+			    		padding-left: 25px;
+					    margin-top: 5px;
+					    margin-bottom: 10px;
+					    display: inline-block;
+					    input {
+					    	float: left;
+						    margin: 5px 5px 0 0;
+					    }
+					    label {
+					    	float: left;
+					    }
+					    a {
+					    	color: #a78668;
+						    text-decoration: underline;
+						    margin-left: 45px;
+					    }
+			    	}
+			    	.log-btn {
+			    		padding-left: 25px;
+    					margin-top: 10px;
+    					.log-submit {
+    						display: inline;
+						    width: 250px;
+						    margin: 0 auto;
+						    height: 30px;
+						    line-height: 30px;
+						    vertical-align: middle;
+						    color: #fff;
+						    font-size: 16px;
+						    border: 0px;
+						    cursor: pointer;
+						    overflow: hidden;
+						    background-color: #cf0101;
+    					}
+			    	}
+			    	.log-re {
+			    		text-align: right;
+			    		line-height: 24px;
+					    padding: 20px 25px 20px 0;
+					    border-bottom: #ccc solid 1px;
+					    a {
+					    	text-decoration: underline;
+						    color: #a78668;
+						    margin-left: 10px;
+					    }
+			    	}
+			    	.log-hezuo {
+			    		padding-top: 20px;
+    					text-align: center;
+    					p {
+    						float: left;
+    						padding-left: 25px;
+    					}
+    					a {
+    						display: inline-block;
+    						margin-top: 4px;
+    					}
+			    	}
+			    }
+		    }
+		}
+	}
+}

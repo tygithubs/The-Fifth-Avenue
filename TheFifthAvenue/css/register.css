@@ -1,0 +1,238 @@
+/* top */
+.register-top {
+  width: 100%;
+  height: 90px;
+  padding-top: 10px;
+}
+.register-top .register-box {
+  width: 1000px;
+  height: 90px;
+  margin: 0 auto;
+  position: relative;
+  line-height: 90px;
+}
+.register-top .register-box .logo img {
+  float: left;
+}
+.register-top .register-box .logo span {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #949292;
+  float: left;
+  padding-left: 10px;
+}
+.register-top .register-box .phone {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  line-height: 27px;
+  height: 27px;
+}
+.register-top .register-box .phone img {
+  float: left;
+}
+.register-top .register-box .phone span {
+  float: left;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #000;
+}
+
+/* register-main */
+.register-main {
+  width: 100%;
+  height: 660px;
+  background: url(../img/register/zhuce-bg.jpg) no-repeat;
+}
+.register-main .register-content {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.register-main .register-content .main-left {
+  width: 705px;
+  height: 680px;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: -114px;
+  background: url(../img/register/zhuce-icon.png) no-repeat;
+}
+.register-main .register-content .main-right {
+  width: 450px;
+  height: 592px;
+  background-color: #fff;
+  float: right;
+  margin: 47px 0 0 10px;
+  -webkit-box-shadow: #afabab 0px 0px 8px;
+  -moz-box-shadow: #afabab 0px 0px 8px;
+  box-shadow: #afabab 0px 0px 8px;
+}
+.register-main .register-content .main-right .register-box {
+  width: 330px;
+  margin: 45px auto;
+  text-align: left;
+}
+.register-main .register-content .main-right .register-box ul {
+  width: 330px;
+  position: relative;
+}
+.register-main .register-content .main-right .register-box ul .re-title {
+  width: 100%;
+  border-bottom: #ccc solid 1px;
+  text-align: center;
+  font-family: Helvetica;
+  color: #7b7c7c;
+}
+.register-main .register-content .main-right .register-box ul .re-title span {
+  height: 25px;
+  line-height: 25px;
+  padding: 2px 20px;
+  border-top-left-radius: 5px 5px;
+  border-top-right-radius: 5px 5px;
+  position: absolute;
+  left: 0;
+  top: -30px;
+  background-color: #000;
+  color: #fff;
+}
+.register-main .register-content .main-right .register-box ul .re-con {
+  padding-left: 2px;
+  width: 330px;
+  height: 64px;
+  position: relative;
+}
+.register-main .register-content .main-right .register-box ul .re-con .i-status {
+  width: 16px;
+  height: 16px;
+  background: url(../img/register/icon.png) no-repeat 0 -117px;
+  position: absolute;
+  top: 10px;
+  left: 265px;
+  display: none;
+}
+.register-main .register-content .main-right .register-box ul .re-con .msg-tips {
+  font-size: 12px;
+  color: #666;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+  display: none;
+}
+.register-main .register-content .main-right .register-box ul .re-con .msg-tips .i-tip {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+  vertical-align: text-top;
+  background: url(../img/register/icon.png) no-repeat 0 -100px;
+}
+.register-main .register-content .main-right .register-box ul .re-con .msg-error {
+  display: inline-block;
+  font-size: 12px;
+  color: #f00;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+  display: none;
+}
+.register-main .register-content .main-right .register-box ul .re-con .msg-error .i-error {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+  vertical-align: text-top;
+  background: url(../img/register/icon.png) no-repeat -17px -100px;
+}
+.register-main .register-content .main-right .register-box ul .re-con label {
+  width: 72px;
+  float: left;
+  text-align: right;
+  line-height: 32px;
+  height: 32px;
+}
+.register-main .register-content .main-right .register-box ul .re-con input {
+  width: 200px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+  vertical-align: middle;
+  float: left;
+  border: 1px solid #ccc;
+}
+.register-main .register-content .main-right .register-box ul .re-con input.focus {
+  border-color: #7abd54;
+}
+.register-main .register-content .main-right .register-box ul .re-con input.focus1 {
+  border-color: red;
+}
+.register-main .register-content .main-right .register-box ul .re-con .get-code {
+  width: 70px;
+  line-height: 25px;
+  border: 1px solid #ccc;
+  color: #000;
+  position: absolute;
+  right: -30px;
+  top: 3px;
+  cursor: pointer;
+  text-align: center;
+}
+.register-main .register-content .main-right .register-box ul .re-con .get-code:hover {
+  background: #A78668;
+  color: #fff;
+}
+.register-main .register-content .main-right .register-box ul .re-con .auth-code {
+  width: 70px;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #ccc;
+  color: #000;
+  position: absolute;
+  right: -30px;
+  top: 3px;
+  cursor: pointer;
+  text-align: center;
+  background: #ccc;
+  font-size: 18px;
+}
+.register-main .register-content .main-right .register-box ul .tongyi {
+  margin: 5px 0 15px 62px;
+}
+.register-main .register-content .main-right .register-box ul .tongyi a {
+  color: #000;
+}
+.register-main .register-content .main-right .register-box ul .tongyi a:hover {
+  color: #B88247;
+}
+.register-main .register-content .main-right .register-box ul .re-btn {
+  width: 210px;
+  display: inline;
+  margin-left: 72px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 16px;
+  border: 0px;
+  cursor: auto;
+  background-color: #999;
+}
+.register-main .register-content .main-right .register-box ul .login-re {
+  text-align: right;
+  padding: 20px 25px 20px 0;
+  border-bottom: #ccc solid 1px;
+}
+.register-main .register-content .main-right .register-box ul .login-re a {
+  text-decoration: underline;
+  color: #a78668;
+  margin-left: 10px;
+}
+.register-main .register-content .main-right .register-box ul .tishi {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.register-main .register-content .main-right .register-box ul .tishi span {
+  color: red;
+}
+
+/*# sourceMappingURL=register.css.map */
